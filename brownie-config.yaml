@@ -1,0 +1,4 @@
+#dotenv: .env
+#grab the env variables or private key from .env file
+wallet:
+  from_key: ${PRIVATE_KEY} #any str enclosed in curly braces and a dollar sign becomes a variable that is fetch from this file
